@@ -5,7 +5,7 @@ Go client SDK for the Ledger financial accounting engine.
 ## Installation
 
 ```bash
-go get github.com/fortress7/ledger-sdk-go
+go get go.fortress7.cloud/ledger
 ```
 
 ## Quick Start
@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"log"
 
-	ledger "github.com/fortress7/ledger-sdk-go/gen/ledger"
+	ledger "go.fortress7.cloud/ledger/gen/ledger"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )
